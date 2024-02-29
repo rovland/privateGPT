@@ -52,8 +52,8 @@ qdrant:
 
 local:
   prompt_style: "llama2"
-  llm_hf_repo_id: RWKV/v5-Eagle-7B
-  llm_hf_model_file: RWKV-v5-Eagle-World-7B-v2-20240128-ctx4096.pth
+  llm_hf_repo_id: TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+  llm_hf_model_file: mistral-7b-instruct-v0.2.Q4_K_M.gguf
   embedding_hf_model_name: BAAI/bge-small-en-v1.5
 
 sagemaker:
